@@ -1,0 +1,164 @@
+2019-11-08 16:18:16,397 - tools.report.log_tool - INFO - ----请求用时: 100.132 秒数
+2019-11-08 16:18:16,398 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 41
+Content-Type: application/json
+
+b'{"pwd": "zz12366", "userName": "zz12366"}'
+2019-11-08 16:18:16,399 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 08 Nov 2019 08:18:14 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTczMjAyODk1NTgzLCJ1c2VySWQiOjE5NTUsInVzZXJOYW1lIjoienoxMjM2NiJ9","userName":"zz12366"}}
+2019-11-08 16:19:24,500 - tools.report.log_tool - INFO - ----请求用时: 96.03 秒数
+2019-11-08 16:19:24,501 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 41
+Content-Type: application/json
+
+b'{"pwd": "zz12366", "userName": "zz12366"}'
+2019-11-08 16:19:24,501 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 08 Nov 2019 08:19:23 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTczMjAyOTYzNjg2LCJ1c2VySWQiOjE5NTUsInVzZXJOYW1lIjoienoxMjM2NiJ9","userName":"zz12366"}}
+2019-11-08 16:22:13,334 - tools.report.log_tool - INFO - ----请求用时: 157.465 秒数
+2019-11-08 16:22:13,335 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 41
+Content-Type: application/json
+
+b'{"pwd": "zz12366", "userName": "zz12366"}'
+2019-11-08 16:22:13,335 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 08 Nov 2019 08:22:12 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTczMjAzMTMyNTE4LCJ1c2VySWQiOjE5NTUsInVzZXJOYW1lIjoienoxMjM2NiJ9","userName":"zz12366"}}
+2019-11-08 16:22:13,428 - tools.report.log_tool - INFO - ----请求用时: 86.302 秒数
+2019-11-08 16:22:13,428 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/product/addProd
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTczMjAzMTMyNTE4LCJ1c2VySWQiOjE5NTUsInVzZXJOYW1lIjoienoxMjM2NiJ9
+Content-Length: 142
+Content-Type: application/json
+
+b'{"brand": "string", "colors": ["string"], "price": 0, "productCode": "string", "productName": "string", "sizes": ["string"], "type": "string"}'
+2019-11-08 16:22:13,428 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 08 Nov 2019 08:22:12 GMT
+
+{"code":9999,"message":"价格最小为1；","data":""}
+2019-11-08 17:13:17,714 - tools.report.log_tool - INFO - ----请求用时: 99.187 秒数
+2019-11-08 17:13:17,714 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 41
+Content-Type: application/json
+
+b'{"pwd": "zz12366", "userName": "zz12366"}'
+2019-11-08 17:13:17,714 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 08 Nov 2019 09:13:16 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTczMjA2MTk2ODYwLCJ1c2VySWQiOjE5NTUsInVzZXJOYW1lIjoienoxMjM2NiJ9","userName":"zz12366"}}
+2019-11-08 17:13:17,855 - tools.report.log_tool - INFO - ----请求用时: 136.89 秒数
+2019-11-08 17:13:17,855 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/product/addProd
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTczMjA2MTk2ODYwLCJ1c2VySWQiOjE5NTUsInVzZXJOYW1lIjoienoxMjM2NiJ9
+Content-Length: 190
+Content-Type: application/json
+
+b'{"brand": "\\u7f8e\\u77ed", "colors": ["\\u864e\\u6591\\u52a0\\u767d"], "price": 10000, "productCode": "cat222", "productName": "\\u56e2\\u56e2", "sizes": ["11\\u65a4"], "type": "\\u5c0f\\u732b\\u54aa"}'
+2019-11-08 17:13:17,855 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 08 Nov 2019 09:13:16 GMT
+
+{"code":2000,"message":"创建产品成功,产品ID为:6。共生成商品：1件。","data":[{"skuId":null,"productCode":"cat222","skuCode":"cat222_虎斑加白_11斤","skuName":"团团虎斑加白11斤","skuPrice":10000,"color":"虎斑加白","size":"11斤","status":null,"createTime":null,"updateTime":null}]}
+2019-11-08 17:48:18,969 - tools.report.log_tool - INFO - ----请求用时: 96.717 秒数
+2019-11-08 17:48:18,969 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 41
+Content-Type: application/json
+
+b'{"pwd": "zz12366", "userName": "zz12366"}'
+2019-11-08 17:48:18,969 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 08 Nov 2019 09:48:18 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTczMjA4Mjk4MDkwLCJ1c2VySWQiOjE5NTUsInVzZXJOYW1lIjoienoxMjM2NiJ9","userName":"zz12366"}}
+2019-11-08 17:53:26,323 - tools.report.log_tool - INFO - ----请求用时: 97.631 秒数
+2019-11-08 17:53:26,323 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 41
+Content-Type: application/json
+
+b'{"pwd": "zz12366", "userName": "zz12366"}'
+2019-11-08 17:53:26,339 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 08 Nov 2019 09:53:25 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTczMjA4NjA1NDM5LCJ1c2VySWQiOjE5NTUsInVzZXJOYW1lIjoienoxMjM2NiJ9","userName":"zz12366"}}
+2019-11-08 17:54:52,093 - tools.report.log_tool - INFO - ----请求用时: 162.515 秒数
+2019-11-08 17:54:52,093 - tools.report.log_tool - INFO - -------------------request-------------
+http://api.yansl.com:8084/login
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 41
+Content-Type: application/json
+
+b'{"pwd": "zz12366", "userName": "zz12366"}'
+2019-11-08 17:54:52,093 - tools.report.log_tool - INFO - ---------------response----------------
+200
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 08 Nov 2019 09:54:51 GMT
+
+{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTczMjA4NjkxMTk1LCJ1c2VySWQiOjE5NTUsInVzZXJOYW1lIjoienoxMjM2NiJ9","userName":"zz12366"}}
